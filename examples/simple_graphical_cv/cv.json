@@ -1,0 +1,1239 @@
+{
+    "metadata": {
+        "orientation": "portrait",
+        "units": "mm",
+        "format": "A4",
+        "title": "Jan Kowalski CV 2022",
+        "subject": "Resume generated automatically by: https://github.com/8tm/resume_generator",
+        "author": "Jan Kowalski",
+        "keywords": "cv, jan, kowalski, resume, automatically, generated",
+        "language": "English"
+    },
+    "output": "jan_kowalski_cv_2022.pdf",
+    "items": {
+        "fonts": [
+            {
+                "name": "regular",
+                "path": "fonts/clear-sans/ClearSans-Regular.ttf"
+            },
+            {
+                "name": "bold",
+                "path": "fonts/clear-sans/ClearSans-Bold.ttf"
+            },
+            {
+                "name": "italic",
+                "path": "fonts/clear-sans/ClearSans-Italic.ttf"
+            }
+        ],
+        "layout": [
+            {
+                "type": "image",
+                "path": "images/background_grey.jpg",
+                "x": 0,
+                "y": 0,
+                "w": 61.5,
+                "h": 277
+            },
+            {
+                "type": "line",
+                "x1": 0,
+                "y1": 0,
+                "x2": 210,
+                "y2": 0,
+                "w": 1,
+                "color" : {
+                    "r": 46,
+                    "g": 71,
+                    "b": 78
+                }
+            },
+            {
+                "type": "line",
+                "x1": 0,
+                "y1": 297,
+                "x2": 210,
+                "y2": 297,
+                "w": 1,
+                "color" : {
+                    "r": 46,
+                    "g": 71,
+                    "b": 78
+                }
+            },
+            {
+                "type": "line",
+                "x1": 210,
+                "y1": 297,
+                "x2": 210,
+                "y2": 0,
+                "w": 1,
+                "color" : {
+                    "r": 46,
+                    "g": 71,
+                    "b": 78
+                }
+            },
+            {
+                "type": "line",
+                "x1": 61.5,
+                "y1": 0,
+                "x2": 61.5,
+                "y2": 297,
+                "w": 0.5,
+                "color" : {
+                    "r": 191,
+                    "g": 191,
+                    "b": 191
+                }
+            },
+            {
+                "type": "image",
+                "path": "images/my_picture_332x342.png",
+                "x": 0,
+                "y": 215,
+                "w": 82,
+                "h": 70
+            },
+            {
+                "type": "line",
+                "x1": 0,
+                "y1": 0,
+                "x2": 0,
+                "y2": 297,
+                "w": 1,
+                "color" : {
+                    "r": 46,
+                    "g": 71,
+                    "b": 78
+                }
+            },
+            {
+                "type": "image",
+                "path": "images/background_header_grey.jpg",
+                "x": 0,
+                "y": 0,
+                "w": 297,
+                "h": 4
+            },
+            {
+                "type": "image",
+                "path": "images/background_footer_grey.jpg",
+                "x": 0,
+                "y": 285,
+                "w": 297,
+                "h": 12
+            }
+        ],
+        "left":[
+            {
+                "text": "Operating Systems",
+                "url": "",
+                "x": 2,
+                "y": 10,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "Windows 10, Debian, MacOS",
+                "url": "",
+                "x": 2,
+                "y": 14,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 71,
+                    "g": 71,
+                    "b": 71
+                }
+            },
+            {
+                "text": "Python",
+                "url": "",
+                "x": 2,
+                "y": 20,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<python packages>",
+                "url": "",
+                "x": 2,
+                "y": 24,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 71,
+                    "g": 71,
+                    "b": 71
+                }
+            },
+            {
+                "text": "Shell",
+                "url": "",
+                "x": 2,
+                "y": 30,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "Bash, Shellcheck, Bats <other tools>",
+                "url": "",
+                "x": 2,
+                "y": 34,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 71,
+                    "g": 71,
+                    "b": 71
+                }
+            },
+            {
+                "text": "Other",
+                "url": "",
+                "x": 2,
+                "y": 40,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "C++, .Net, C#, Java",
+                "url": "",
+                "x": 2,
+                "y": 44,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 71,
+                    "g": 71,
+                    "b": 71
+                }
+            },
+            {
+                "text": "Web",
+                "url": "",
+                "x": 2,
+                "y": 50,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "HTML5, CSS3, PHP7, JavaScript",
+                "url": "",
+                "x": 2,
+                "y": 54,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 71,
+                    "g": 71,
+                    "b": 71
+                }
+            },
+            {
+                "text": "Databases",
+                "url": "",
+                "x": 2,
+                "y": 60,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "MySQL, SQLite, Postgres, NoSQL",
+                "url": "",
+                "x": 2,
+                "y": 64,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 71,
+                    "g": 71,
+                    "b": 71
+                }
+            },
+            {
+                "text": "Tools",
+                "url": "",
+                "x": 2,
+                "y": 70,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<tools part 1>",
+                "url": "",
+                "x": 2,
+                "y": 74,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 71,
+                    "g": 71,
+                    "b": 71
+                }
+            },
+            {
+                "text": "<tools part 2>",
+                "url": "",
+                "x": 2,
+                "y": 78,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 71,
+                    "g": 71,
+                    "b": 71
+                }
+            },
+            {
+                "text": "<tools part 3>",
+                "url": "",
+                "x": 2,
+                "y": 82,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 71,
+                    "g": 71,
+                    "b": 71
+                }
+            },
+            {
+                "text": "Languages",
+                "url": "",
+                "x": 2,
+                "y": 88,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "Deutsch: Native",
+                "url": "",
+                "x": 2,
+                "y": 92,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 71,
+                    "g": 71,
+                    "b": 71
+                }
+            },
+            {
+                "text": "English: C1",
+                "url": "",
+                "x": 2,
+                "y": 96,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 71,
+                    "g": 71,
+                    "b": 71
+                }
+            },
+            {
+                "text": "Hobby",
+                "url": "",
+                "x": 2,
+                "y": 102,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<hobby part 1>",
+                "url": "",
+                "x": 2,
+                "y": 106,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 71,
+                    "g": 71,
+                    "b": 71
+                }
+            },
+            {
+                "text": "<hobby part 2>",
+                "url": "",
+                "x": 2,
+                "y": 110,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 71,
+                    "g": 71,
+                    "b": 71
+                }
+            },
+            {
+                "text": "<hobby part 3>",
+                "url": "",
+                "x": 2,
+                "y": 114,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 71,
+                    "g": 71,
+                    "b": 71
+                }
+            },
+            {
+                "text": "Contact",
+                "url": "",
+                "x": 23,
+                "y": 143,
+                "size": 11,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "Email:",
+                "url": "",
+                "x": 2,
+                "y": 148,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "your@email.com",
+                "url": "mailto:your@email.com?Subject=Email%20from%20CV&body=Hello!%20How%20are%20you?%20:-)",
+                "x": 4,
+                "y": 152,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 30,
+                    "g": 93,
+                    "b": 143
+                }
+            },
+            {
+                "text": "Mobile:",
+                "url": "",
+                "x": 2,
+                "y": 158,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "(+48) 555-55-55-55",
+                "url": "tel:48555555555",
+                "x": 4,
+                "y": 162,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 30,
+                    "g": 93,
+                    "b": 143
+                }
+            },
+            {
+                "text": "Linked",
+                "url": "",
+                "x": 2,
+                "y": 168,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "https://www.linkedin.com",
+                "url": "https://www.linkedin.com",
+                "x": 4,
+                "y": 172,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 30,
+                    "g": 93,
+                    "b": 143
+                }
+            },
+            {
+                "text": "Home-page:",
+                "url": "",
+                "x": 2,
+                "y": 176,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "https://www.userpage.com",
+                "url": "https://www.userpage.com",
+                "x": 4,
+                "y": 180,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 30,
+                    "g": 93,
+                    "b": 143
+                }
+            }
+        ],
+        "right": [
+            {
+                "text": "Jan Kowalski",
+                "url": "",
+                "x": 66,
+                "y": 23,
+                "size": 49,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "Everything Developer",
+                "url": "",
+                "x": 109,
+                "y": 35,
+                "size": 18,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<about section line 1>",
+                "url": "",
+                "x": 65,
+                "y": 49,
+                "size": 10,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<about section line 2>",
+                "url": "",
+                "x": 65,
+                "y": 53,
+                "size": 10,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<about section line 3>",
+                "url": "",
+                "x": 65,
+                "y": 57,
+                "size": 10,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<about section line 4>",
+                "url": "",
+                "x": 65,
+                "y": 61,
+                "size": 10,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<about section line 5>",
+                "url": "",
+                "x": 65,
+                "y": 65,
+                "size": 10,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<about section line 6>",
+                "url": "",
+                "x": 65,
+                "y": 69,
+                "size": 10,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<about section line 7>",
+                "url": "",
+                "x": 65,
+                "y": 73,
+                "size": 10,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "EXPERIENCE",
+                "url": "",
+                "x": 125,
+                "y": 79,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "Company-Name One",
+                "url": "",
+                "x": 65,
+                "y": 85,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "2022-01 - Now: Job title",
+                "url": "",
+                "x": 67,
+                "y": 89,
+                "size": 9,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<responsibilities description>",
+                "url": "",
+                "x": 67,
+                "y": 93,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "Company-Name Two",
+                "url": "",
+                "x": 65,
+                "y": 100,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "2021-01 - 2021-12: Job title",
+                "url": "",
+                "x": 67,
+                "y": 104,
+                "size": 9,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<responsibilities description>",
+                "url": "",
+                "x": 67,
+                "y": 108,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<responsibilities description>",
+                "url": "",
+                "x": 67,
+                "y": 112,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "2020-01 - 2020-12: Job title",
+                "url": "",
+                "x": 67,
+                "y": 116,
+                "size": 9,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<responsibilities description>",
+                "url": "",
+                "x": 67,
+                "y": 120,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<responsibilities description>",
+                "url": "",
+                "x": 67,
+                "y": 124,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<responsibilities description>",
+                "url": "",
+                "x": 67,
+                "y": 128,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "2018-01 - 2020-12: Job title",
+                "url": "",
+                "x": 67,
+                "y": 132,
+                "size": 9,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<responsibilities description>",
+                "url": "",
+                "x": 67,
+                "y": 136,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<responsibilities description>",
+                "url": "",
+                "x": 67,
+                "y": 140,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<responsibilities description>",
+                "url": "",
+                "x": 67,
+                "y": 144,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "Company-Name Three",
+                "url": "",
+                "x": 65,
+                "y": 151,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "2017-01 - 2018-12: Job title",
+                "url": "",
+                "x": 67,
+                "y": 155,
+                "size": 9,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "2015-01 - 2016-12: Job title",
+                "url": "",
+                "x": 67,
+                "y": 159,
+                "size": 9,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<responsibilities description>",
+                "url": "",
+                "x": 67,
+                "y": 163,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<responsibilities description>",
+                "url": "",
+                "x": 67,
+                "y": 167,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<responsibilities description>",
+                "url": "",
+                "x": 67,
+                "y": 171,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<responsibilities description>",
+                "url": "",
+                "x": 67,
+                "y": 175,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "Company-Name Four",
+                "url": "",
+                "x": 65,
+                "y": 182,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "2010-01 - 2014-12: Job title",
+                "url": "",
+                "x": 67,
+                "y": 186,
+                "size": 9,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<responsibilities description>",
+                "url": "",
+                "x": 67,
+                "y": 190,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<responsibilities description>",
+                "url": "",
+                "x": 67,
+                "y": 194,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "<responsibilities description>",
+                "url": "",
+                "x": 67,
+                "y": 198,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "EDUCATION",
+                "url": "",
+                "x": 125,
+                "y": 205,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "School Name 2005 - 2010",
+                "url": "",
+                "x": 80,
+                "y": 212,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "School info line 1",
+                "url": "",
+                "x": 85,
+                "y": 216,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "School info line 2",
+                "url": "",
+                "x": 85,
+                "y": 220,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "School Name 2003 - 2005",
+                "url": "",
+                "x": 80,
+                "y": 227,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "School info line 1",
+                "url": "",
+                "x": 85,
+                "y": 231,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "School info line 2",
+                "url": "",
+                "x": 85,
+                "y": 235,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "School info line 3",
+                "url": "",
+                "x": 85,
+                "y": 239,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "School info line 4",
+                "url": "",
+                "x": 85,
+                "y": 243,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "School Name 2001 - 2003",
+                "url": "",
+                "x": 80,
+                "y": 250,
+                "size": 10,
+                "font": "bold",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "School info line 1",
+                "url": "",
+                "x": 85,
+                "y": 254,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "School info line 2",
+                "url": "",
+                "x": 85,
+                "y": 258,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "School info line 3",
+                "url": "",
+                "x": 85,
+                "y": 262,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            },
+            {
+                "text": "School info line 4",
+                "url": "",
+                "x": 85,
+                "y": 266,
+                "size": 9,
+                "font": "regular",
+                "color" : {
+                    "r": 51,
+                    "g": 51,
+                    "b": 51
+                }
+            }
+        ],
+        "footer":[
+            {
+                "text": "I hereby declare that all ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ",
+                "url":"",
+                "x": 8,
+                "y": 290,
+                "size": 8,
+                "font": "regular",
+                "color" : {
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                }
+            },
+            {
+                "text": "ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ble ",
+                "url":"",
+                "x": 5,
+                "y": 294,
+                "size": 8,
+                "font": "regular",
+                "color" : {
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                }
+            }
+        ]
+    }
+}
