@@ -9,8 +9,9 @@ Simple one page generator.
 
 
 ## Installation 
-   git clone https://github.com/8tm/resume_generator && cd resume_generator
-   pip install .
+
+    git clone https://github.com/8tm/resume_generator && cd resume_generator
+    pip install .
    
 ## Usage
 
