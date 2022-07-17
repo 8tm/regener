@@ -12,10 +12,8 @@ class PDF(FPDF, HTMLMixin):
     subject: str = ''
     compress: bool = False
 
-    def add_item(
-            self, x: int, y: int, text: str, font: str, size: int, color: Dict[str, int] = {'r': 51, 'g': 51, 'b': 51},
-            url: str = '') -> None:
-        self.set_text_color(**color)
+    def add_item(self, x: int, y: int, text: str, font: str, size: int, color: Dict[str, int], url: str = '') -> None:
+        self.set_text_color(**color if color else {'r': 51, 'g': 51, 'b': 51})
         self.set_font(font, size=size)
         self.text(x, y, text)
         if url:

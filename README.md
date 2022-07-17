@@ -1,4 +1,4 @@
-# Resume generator
+# Regener - Resume Generator
 
 Simple one page generator.
 
@@ -10,9 +10,8 @@ Simple one page generator.
 
 ## Installation 
 
-    git clone https://github.com/8tm/resume_generator && cd resume_generator
-    pip install .
-   
+    pip install regener==22.7.17
+
 ## Usage
 
 INPUT_PATH: Path to folder with files (json, images, fonts)
@@ -21,15 +20,15 @@ OUTPUT_PATH: Path to the pdf file or to directory where that pdf file will be ge
 
 Usage:
 
-    resume_generator -p <INPUT_PATH>
-    resume_generator -p /home/${USER}/Desktop/My_CV/
+    regener -p <INPUT_PATH>
+    regener -p /home/${USER}/Desktop/My_CV/
 
 Or:
-   
-    resume_generator -p <INPUT_PATH> -o <OUTPUT_PATH>
-    resume_generator -p /home/${USER}/Desktop/My_CV/ -o resume_generator -p /home/${USER}/Desktop/My_CV/
-    resume_generator -p /home/${USER}/Desktop/My_CV/ -o resume_generator -p /home/${USER}/Desktop/My_CV/My_CV_2022.pdf
-   
+
+    regener -p <INPUT_PATH> -o <OUTPUT_PATH>
+    regener -p /home/${USER}/Desktop/My_CV/ -o resume_generator -p /home/${USER}/Desktop/My_CV/
+    regener -p /home/${USER}/Desktop/My_CV/ -o resume_generator -p /home/${USER}/Desktop/My_CV/My_CV_2022.pdf
+
 ## Json file
 
 Script will search for file `cv.json` in INPUT_PATH.

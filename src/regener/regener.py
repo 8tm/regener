@@ -1,8 +1,24 @@
+import argparse
 import json
 from pathlib import Path
 
-from rg.classes.pdf import PDF  # type: ignore
-from rg.menu import parse_arguments  # type: ignore
+from regener.classes.pdf import PDF  # type: ignore
+
+
+def parse_arguments() -> argparse.Namespace:
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        '-i', '--input', action='store', required=True, type=Path,
+        help='Path to folder with files (json, images, fonts)',
+    )
+
+    parser.add_argument(
+        '-o', '--output', action='store', required=False, type=Path,
+        help='Path to the pdf file or to directory where that pdf file will be generated',
+    )
+
+    return parser.parse_args()
 
 
 def generate_pdf(content: dict, path: Path):
@@ -36,13 +52,13 @@ def select_output_path(argument_output: Path, argument_path: Path, content_path)
 
 def main():
     arguments = parse_arguments()
-    json_file_path = Path(arguments.path) / 'cv.json'
+    json_file_path = Path(arguments.input) / 'cv.json'
 
     with open(json_file_path, 'r') as json_file:
         content = json.load(json_file)
 
-    pdf_content = generate_pdf(content, arguments.path)
-    pdf_content.output(select_output_path(arguments.output, arguments.path, content.get('output')))
+    pdf_content = generate_pdf(content, arguments.input)
+    pdf_content.output(select_output_path(arguments.output, arguments.input, content.get('output')))
 
 
 if __name__ == '__main__':

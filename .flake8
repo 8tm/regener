@@ -1,5 +1,5 @@
 [flake8]
-application-import-names = rg
+application-import-names = regener
 max-line-length = 120
 ignore = W503
 max-complexity = 10
